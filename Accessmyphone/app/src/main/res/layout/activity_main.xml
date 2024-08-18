@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="150dp"
+        android:drawableLeft="@drawable/ic_action_pin"
+        android:ems="10"
+        android:hint="Enter pin"
+        android:inputType="textPassword"
+        android:textColor="#ECE9E2"
+        android:textColorHint="#F8F8F0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="90dp"
+        android:background="@drawable/setpin_button"
+        android:text="Set pin"
+        android:textColor="#19F67C"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/start_button"
+        android:textColor="#071BCD"
+        android:text="start" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stop_button"
+        android:textColor="#071BCD"
+        android:text="stop" />
+
+</LinearLayout>
